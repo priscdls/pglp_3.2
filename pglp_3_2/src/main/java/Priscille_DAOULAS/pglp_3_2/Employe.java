@@ -1,8 +1,8 @@
 package Priscille_DAOULAS.pglp_3_2;
 
 public class Employe extends allEmploye {
-	final private int salaire = 1500;
-	private int startYear;
+	private final int salaire = 1500;
+	private final int startYear;
 	
 	public Employe(int startYear){
 		this.startYear = startYear;
