@@ -1,10 +1,10 @@
 package Priscille_DAOULAS.pglp_3_2;
 
-public class Vendeur extends allEmploye {
-	final private int base = 2000;
+public class Vendeur extends Salaire {
 	private int commission;
 	
-	public Vendeur (int commission){
+	public Vendeur(int commission) {
+		super(1500);
 		this.commission = commission;
 	}
 	
