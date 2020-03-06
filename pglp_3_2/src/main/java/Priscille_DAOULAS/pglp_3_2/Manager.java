@@ -1,20 +1,28 @@
 package Priscille_DAOULAS.pglp_3_2;
-
+/**
+ * Classe Manager héritant de la classe Salaire.
+ *
+ */
 public class Manager extends Salaire {
-	
-	private final int base = 1500;
-	private int nbEmployes;
-	
-	public Manager(int nbEmployes)
-	{
+	/**
+	 * Nombre d'employé à sa charge.
+	 */
+	private final int nbEmployes;
+	/**
+	 * Constructeur.
+	 * @param nbEmployes Nombre d'employé à sa charge
+	 */
+	public Manager(int nbEmployes) {
 		super(1500);
 		this.nbEmployes=nbEmployes;
 	}
-	
 	@Override
-	public double salaire()
-	{
-		return base+(nbEmployes*100);
+	/**
+	 * Fonction calculant le salaire d'un manager en fonction du nombre d'employé a sa charge.
+	 * @return Le salaire d'un manager.
+	 */
+	public double salaire() {
+		return base + (nbEmployes * 100);
 	}
 }
 
