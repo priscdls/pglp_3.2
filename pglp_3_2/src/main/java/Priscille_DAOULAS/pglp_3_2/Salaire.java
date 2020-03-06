@@ -10,14 +10,14 @@ public abstract class Salaire {
 	protected final int base;
 	/**
 	 * Constructeur.
-	 * @param base Salaire de base
+	 * @param Base Salaire de base
 	 */
-	public Salaire(final int base) {
-		this.base = base;
+	public Salaire(final int Base) {
+		this.base = Base;
 	}
 	/**
 	 * Fonction calculant le salaire d'un employé.
-	 * @return Le salaire 
+	 * @return Le salaire d'un employé
 	 */
 	public abstract double salaire();
 }

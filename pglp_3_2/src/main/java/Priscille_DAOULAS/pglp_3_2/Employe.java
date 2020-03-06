@@ -18,7 +18,8 @@ public class Employe extends Salaire {
 		this.startYear = start;
 	}
 	/**
-	 * Fonction calculant le salaire d'un employé en fonction de son ancienneté.
+	 * Fonction calculant le salaire d'un employé.
+	 * en fonction de son ancienneté.
 	 */
 	@Override
 	public double salaire() {

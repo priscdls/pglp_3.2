@@ -10,11 +10,11 @@ public class Manager extends Salaire {
 	private final int nbEmployes;
 	/**
 	 * Constructeur.
-	 * @param nbEmployes Nombre d'employé à sa charge
+	 * @param nbEmp Nombre d'employé à sa charge
 	 */
-	public Manager(int nbEmployes) {
+	public Manager(final int nbEmp) {
 		super(1500);
-		this.nbEmployes = nbEmployes;
+		this.nbEmployes = nbEmp;
 	}
 	/**
 	 * Fonction calculant le salaire d'un manager en fonction du nombre d'employé a sa charge.

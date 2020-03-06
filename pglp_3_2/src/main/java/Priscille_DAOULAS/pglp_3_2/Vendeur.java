@@ -10,14 +10,16 @@ public class Vendeur extends Salaire {
 	private final int commission;
 	/**
 	 * Constructeur.
-	 * @param commission La commission d'un vendeur qui s'ajoute a son salaire de base.
+	 * @param com La commission d'un vendeur
+	 * qui s'ajoute a son salaire de base.
 	 */
-	public Vendeur(final int commission) {
+	public Vendeur(final int com) {
 		super(1500);
-		this.commission = commission;
+		this.commission = com;
 	}
 	/**
-	 * Fonction calculant le salaire d'un vendeur en fonction de sa commission.
+	 * Fonction calculant le salaire d'un vendeur
+	 * en fonction de sa commission.
 	 * @return Le salaire d'un vendeur
 	 */
 	@Override
