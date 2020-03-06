@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * Classe ayant la liste de tous les employés.
  *
  */
-public class allEmploye {
+public class AllEmploye {
 	/**
 	 * Liste des employés.
 	 */
@@ -13,7 +13,7 @@ public class allEmploye {
 	/**
 	 * Constructeur.
 	 */
-	public allEmploye() {
+	public AllEmploye() {
 		listEmploye = new ArrayList<Salaire>();
 	}
 	/**
@@ -21,7 +21,7 @@ public class allEmploye {
 	 * @param s L'employé a ajouter.
 	 */
 	public void ajoutEmploye(final Salaire s) {
-		if (listEmploye.contains(s) == false) {
+		if (!listEmploye.contains(s)) {
 			listEmploye.add(s);
 		}
 	}

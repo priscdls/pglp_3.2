@@ -17,7 +17,8 @@ public class Manager extends Salaire {
 		this.nbEmployes = nbEmp;
 	}
 	/**
-	 * Fonction calculant le salaire d'un manager en fonction du nombre d'employé a sa charge.
+	 * Fonction calculant le salaire d'un manager
+	 * en fonction du nombre d'employé a sa charge.
 	 * @return Le salaire d'un manager.
 	 */
 	@Override

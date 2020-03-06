@@ -1,6 +1,6 @@
 package Priscille_DAOULAS.pglp_3_2;
 /**
- * Classe App
+ * Classe App.
  */
 public final class App {
 	/**

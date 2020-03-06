@@ -6,13 +6,13 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 /**
- * Tests unitaires de la classe allEmploye.
+ * Tests unitaires de la classe AllEmploye.
  */
-public class allEmployeTest {
+public class AllEmployeTest {
 	
 	@Test
 	public void testSalaireTotal() {
-		allEmploye e = new allEmploye();
+		AllEmploye e = new AllEmploye();
 		e.ajoutEmploye(new Vendeur(100));
 		e.ajoutEmploye(new Employe(2005));
 		e.ajoutEmploye(new Manager(20));
