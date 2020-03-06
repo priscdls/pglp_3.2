@@ -3,7 +3,9 @@ package Priscille_DAOULAS.pglp_3_2;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+/**
+ * Tests unitaires de la classe Vendeur.
+ */
 public class VendeurTest {
 	@Test
 

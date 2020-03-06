@@ -14,13 +14,13 @@ public class Manager extends Salaire {
 	 */
 	public Manager(int nbEmployes) {
 		super(1500);
-		this.nbEmployes=nbEmployes;
+		this.nbEmployes = nbEmployes;
 	}
-	@Override
 	/**
 	 * Fonction calculant le salaire d'un manager en fonction du nombre d'employé a sa charge.
 	 * @return Le salaire d'un manager.
 	 */
+	@Override
 	public double salaire() {
 		return base + (nbEmployes * 100);
 	}

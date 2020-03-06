@@ -11,11 +11,11 @@ public class Employe extends Salaire {
 	private final int startYear;
 	/**
 	 * Constructeur.
-	 * @param startYear Année où l'employé à été embauché
+	 * @param start Année où l'employé à été embauché
 	 */
-	public Employe(int startYear) {
+	public Employe(final int start) {
 		super(1500);
-		this.startYear = startYear;
+		this.startYear = start;
 	}
 	/**
 	 * Fonction calculant le salaire d'un employé en fonction de son ancienneté.
