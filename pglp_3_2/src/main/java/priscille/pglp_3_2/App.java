@@ -13,6 +13,12 @@ public final class App {
      * @param args Les arguments donnés au démarrage de l'application
      */
     public static void main(final String[] args) {
-        System.out.println("Hello World!");
+        AllEmploye e = new AllEmploye();
+        final int com = 100;
+        final int annee = 2005;
+        final int nbEmp = 20;
+        e.ajoutEmploye(new Vendeur(com));
+        e.ajoutEmploye(new Employe(annee));
+        e.ajoutEmploye(new Manager(nbEmp));
     }
 }
