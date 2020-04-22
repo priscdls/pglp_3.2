@@ -2,8 +2,6 @@ package priscille.pglp_3_2;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-
 import org.junit.Test;
 /**
  * Tests unitaires de la classe AllEmploye.
