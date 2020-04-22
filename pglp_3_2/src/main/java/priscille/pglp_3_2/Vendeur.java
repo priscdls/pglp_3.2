@@ -1,4 +1,4 @@
-package Priscille_DAOULAS.pglp_3_2;
+package priscille.pglp_3_2;
 /**
  * Classe Vendeur héritant de la classe Salaire.
  *

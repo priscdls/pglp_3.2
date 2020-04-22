@@ -1,4 +1,4 @@
-package Priscille_DAOULAS.pglp_3_2;
+package priscille.pglp_3_2;
 
 /**
  * Classe représentant la base de salaire d'un employé, manager,vendeur.
@@ -25,6 +25,7 @@ public abstract class Salaire {
     /**
      * Fonction calculant le salaire d'un employé.
      * @return Le salaire d'un employé
+     * @throws Exception
      */
-    public abstract double salaire();
+    public abstract double salaire() throws Exception;
 }

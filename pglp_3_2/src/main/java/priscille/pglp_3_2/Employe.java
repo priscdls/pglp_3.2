@@ -1,4 +1,4 @@
-package Priscille_DAOULAS.pglp_3_2;
+package priscille.pglp_3_2;
 
 /**
  * Classe Employe héritant de la classe Salaire.
@@ -10,15 +10,6 @@ public class Employe extends Salaire {
      */
     private final int startYear;
     /**
-    * Année actuelle.
-    */
-    private final int anneeActuelle = 2020;
-    /**
-     * Multiplicateur de salaire
-     * en fonction de l'ancienneté.
-     */
-    private final int multAncien = 20;
-    /**
      * Constructeur.
      * @param start Année où l'employé à été embauché
      */
@@ -29,9 +20,15 @@ public class Employe extends Salaire {
     /**
      * Fonction calculant le salaire d'un employé.
      * en fonction de son ancienneté.
+     * @throws Exception
      */
     @Override
-    public double salaire() {
+    public double salaire() throws Exception {
+        final int anneeActuelle = 2020;
+        final int multAncien = 20;
+        if (startYear > anneeActuelle) {
+            throw new Exception();
+        }
         return getBase() + (anneeActuelle - this.startYear) * multAncien;
     }
 }

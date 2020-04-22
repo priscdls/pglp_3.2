@@ -1,4 +1,4 @@
-package Priscille_DAOULAS.pglp_3_2;
+package priscille.pglp_3_2;
 /**
  * Classe Manager héritant de la classe Salaire.
  *
@@ -8,11 +8,6 @@ public class Manager extends Salaire {
      * Nombre d'employé à sa charge.
      */
     private final int nbEmployes;
-    /**
-     * Multiplicateur du salaire
-     * en fonction du nombre d'employé a sa charge.
-     */
-    private final int multEmploye = 100;
     /**
      * Constructeur.
      * @param nbEmp Nombre d'employé à sa charge
@@ -28,6 +23,7 @@ public class Manager extends Salaire {
      */
     @Override
     public double salaire() {
+        final int multEmploye = 100;
         return getBase() + (nbEmployes * multEmploye);
     }
 }

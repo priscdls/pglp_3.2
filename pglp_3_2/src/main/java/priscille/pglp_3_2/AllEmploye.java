@@ -1,4 +1,4 @@
-package Priscille_DAOULAS.pglp_3_2;
+package priscille.pglp_3_2;
 
 import java.util.ArrayList;
 /**
@@ -37,8 +37,9 @@ public class AllEmploye {
     /**
      * Une fonction qui calcule la somme des salaires des employés.
      * @return La somme des salaires des employés
+     * @throws Exception
      */
-    public double totalSalaire() {
+    public double totalSalaire() throws Exception {
         double totalSalaire = 0.0;
         for (Salaire s : listEmploye) {
             totalSalaire += s.salaire();
